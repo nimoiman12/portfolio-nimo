@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&display=swap');
+
+
+body{
+  background-color: white ;
+  font-family: 'Single Day', cursive;
+  margin: 0;
+  border-top: 10px solid hotpink;
+  border-bottom: 10px solid darkred;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+
+}
+a:link{
+      color: darkgreen;
+      }
+a:visited{
+      color: darkgreen;
+        }
+a:hover{
+      color: yellowgreen;
+       }
+a:active{
+      color: black;
+        }
+
+/* Navigation Bar */
+nav ul {
+  padding-top: 16px;
+  list-style-type:none;
+  text-align: center;
+}
+nav a {
+  text-decoration:none;
+  padding-right: 10px;
+}
+nav li{
+  display:inline;
+}
+
+nav a:link{
+  color: purple;
+}
+nav a:visited{
+  color:purple:
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:red;
+}
+h1{
+  font-size: 4em;
+  text-align: center;
+}
+
+
+
+nav{
+  
+  border-top: 2px yellow solid;
+  border-bottom: 2px darkred solid;
+  padding: 5px;
+  background: radial-gradient(circle, rgba(255,236,244,0.8645251396648045) 29%, rgba(90,227,117,1) 73%);
+}
+
+
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid lightseagreen;
+  padding: 10px;
+  background-image: url(images/background.jpg);
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.hero{
+  background-image: url(images/background.jpg);
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.hero h1 {
+  font-family: 'dancing script', cursive;
+  color: black;
+  font-size: 60px;
+  text-shadow:3px 3px 3px seagreen ;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+
+
+}
+
+h2{
+ border-bottom: 2px lightgreen solid;
+
+}
+h3{
+
+text-align: center;
+}
+
+.home-photo{
+  float: right;
+  max-width: 50%;
+  height: auto;
+  margin: 50px 0 10px 20px;
+}
+
+
+
+.logo{
+margin: 20px auto;
+display:block;
+
+}
+
+
+.footer1000{
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+
+form{
+  border: 5px solid #000000;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input{
+  margin-bottom: 1em;
+  display:block;
+
+}
+textarea{
+  margin-bottom: 1em;
+  display:block;
+}
+input[type=submit]{
+  display:  block;
+  background-color: indianred;
+}
+
+
+.big3 .fa{
+  margin: 0 auto;
+  display: block;
+  font-size: 6em;
+  text-align: center;
+
+}
+
+.big3 h3{
+  font-size: 2em;
+  text-align: center;
+
+}
+.big3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  
+}
+.big3 a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+ 
+form {
+  background-color:yellowgreen;
+  padding: 50px;
+  border-radius: 10px;
+          }
+
+
+
+/*  CSS for Tablets  */
+@media only screen and (max-width: 1024px){
+     h1{
+          font-size: 2em;
+        }
+}
+
+
+/* CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+        h1{
+             font-size: 1.5em;
+          }
+
+}
+
+
+
+
+
+
+
